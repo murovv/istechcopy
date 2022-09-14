@@ -1,0 +1,1052 @@
+[
+  {
+    "line": "1",
+    "token_name": "T_OPEN_TAG",
+    "text": "<?php "
+  },
+  {
+    "line": "1",
+    "token_name": "T_DECLARE",
+    "text": "declare"
+  },
+  {
+    "line": "1",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "1",
+    "token_name": "T_STRING",
+    "text": "strict_types"
+  },
+  {
+    "line": "1",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "1",
+    "token_name": "T_LNUMBER",
+    "text": "1"
+  },
+  {
+    "line": "1",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "1",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "1",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "2",
+    "token_name": "T_CLASS",
+    "text": "class"
+  },
+  {
+    "line": "2",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "2",
+    "token_name": "T_STRING",
+    "text": "Database"
+  },
+  {
+    "line": "2",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "2",
+    "token_name": "{",
+    "text": "{"
+  },
+  {
+    "line": "2",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n    "
+  },
+  {
+    "line": "4",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ укажите свои учетные данные базы данных"
+  },
+  {
+    "line": "4",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "5",
+    "token_name": "T_PRIVATE",
+    "text": "private"
+  },
+  {
+    "line": "5",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "5",
+    "token_name": "T_STRING",
+    "text": "string"
+  },
+  {
+    "line": "5",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "5",
+    "token_name": "T_VARIABLE",
+    "text": "$host"
+  },
+  {
+    "line": "5",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "5",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "5",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "5",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"localhost\""
+  },
+  {
+    "line": "5",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "5",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "6",
+    "token_name": "T_PRIVATE",
+    "text": "private"
+  },
+  {
+    "line": "6",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "6",
+    "token_name": "T_STRING",
+    "text": "int"
+  },
+  {
+    "line": "6",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "6",
+    "token_name": "T_VARIABLE",
+    "text": "$port"
+  },
+  {
+    "line": "6",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "6",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "6",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "6",
+    "token_name": "T_LNUMBER",
+    "text": "5432"
+  },
+  {
+    "line": "6",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "6",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "7",
+    "token_name": "T_PRIVATE",
+    "text": "private"
+  },
+  {
+    "line": "7",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "7",
+    "token_name": "T_STRING",
+    "text": "string"
+  },
+  {
+    "line": "7",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "7",
+    "token_name": "T_VARIABLE",
+    "text": "$db_name"
+  },
+  {
+    "line": "7",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "7",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "7",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "7",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"php_rest\""
+  },
+  {
+    "line": "7",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "7",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "8",
+    "token_name": "T_PRIVATE",
+    "text": "private"
+  },
+  {
+    "line": "8",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "8",
+    "token_name": "T_STRING",
+    "text": "string"
+  },
+  {
+    "line": "8",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "8",
+    "token_name": "T_VARIABLE",
+    "text": "$username"
+  },
+  {
+    "line": "8",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "8",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "8",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "8",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"paperblade\""
+  },
+  {
+    "line": "8",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "8",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "9",
+    "token_name": "T_PRIVATE",
+    "text": "private"
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "9",
+    "token_name": "T_STRING",
+    "text": "string"
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "9",
+    "token_name": "T_VARIABLE",
+    "text": "$password"
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "9",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "9",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"614850\""
+  },
+  {
+    "line": "9",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "10",
+    "token_name": "T_PUBLIC",
+    "text": "public"
+  },
+  {
+    "line": "10",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "10",
+    "token_name": "T_STRING",
+    "text": "PDO"
+  },
+  {
+    "line": "10",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "10",
+    "token_name": "T_VARIABLE",
+    "text": "$conn"
+  },
+  {
+    "line": "10",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "10",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n    "
+  },
+  {
+    "line": "12",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ получаем соединение с БД"
+  },
+  {
+    "line": "12",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "13",
+    "token_name": "T_PUBLIC",
+    "text": "public"
+  },
+  {
+    "line": "13",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "13",
+    "token_name": "T_FUNCTION",
+    "text": "function"
+  },
+  {
+    "line": "13",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "13",
+    "token_name": "T_STRING",
+    "text": "getConnection"
+  },
+  {
+    "line": "13",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "13",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "13",
+    "token_name": "{",
+    "text": "{"
+  },
+  {
+    "line": "13",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n        "
+  },
+  {
+    "line": "15",
+    "token_name": "T_VARIABLE",
+    "text": "$this"
+  },
+  {
+    "line": "15",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "15",
+    "token_name": "T_STRING",
+    "text": "conn"
+  },
+  {
+    "line": "15",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "15",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "15",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "15",
+    "token_name": "T_STRING",
+    "text": "null"
+  },
+  {
+    "line": "15",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "15",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n        "
+  },
+  {
+    "line": "17",
+    "token_name": "T_TRY",
+    "text": "try"
+  },
+  {
+    "line": "17",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "17",
+    "token_name": "{",
+    "text": "{"
+  },
+  {
+    "line": "17",
+    "token_name": "T_WHITESPACE",
+    "text": "\n            "
+  },
+  {
+    "line": "18",
+    "token_name": "T_VARIABLE",
+    "text": "$this"
+  },
+  {
+    "line": "18",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "18",
+    "token_name": "T_STRING",
+    "text": "conn"
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_NEW",
+    "text": "new"
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_STRING",
+    "text": "PDO"
+  },
+  {
+    "line": "18",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "18",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"pgsql:host=\""
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": ".",
+    "text": "."
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_VARIABLE",
+    "text": "$this"
+  },
+  {
+    "line": "18",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "18",
+    "token_name": "T_STRING",
+    "text": "host"
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": ".",
+    "text": "."
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\";port=\""
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": ".",
+    "text": "."
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_VARIABLE",
+    "text": "$this"
+  },
+  {
+    "line": "18",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "18",
+    "token_name": "T_STRING",
+    "text": "port"
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": ".",
+    "text": "."
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\";dbname=\""
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": ".",
+    "text": "."
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_VARIABLE",
+    "text": "$this"
+  },
+  {
+    "line": "18",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "18",
+    "token_name": "T_STRING",
+    "text": "db_name"
+  },
+  {
+    "line": "18",
+    "token_name": ",",
+    "text": ","
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_VARIABLE",
+    "text": "$this"
+  },
+  {
+    "line": "18",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "18",
+    "token_name": "T_STRING",
+    "text": "username"
+  },
+  {
+    "line": "18",
+    "token_name": ",",
+    "text": ","
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_VARIABLE",
+    "text": "$this"
+  },
+  {
+    "line": "18",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "18",
+    "token_name": "T_STRING",
+    "text": "password"
+  },
+  {
+    "line": "18",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "18",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": "\n            "
+  },
+  {
+    "line": "19",
+    "token_name": "T_STRING",
+    "text": "error_log"
+  },
+  {
+    "line": "19",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "19",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"Success\""
+  },
+  {
+    "line": "19",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "19",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "19",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n        "
+  },
+  {
+    "line": "21",
+    "token_name": "}",
+    "text": "}"
+  },
+  {
+    "line": "21",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "21",
+    "token_name": "T_CATCH",
+    "text": "catch"
+  },
+  {
+    "line": "21",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "21",
+    "token_name": "T_STRING",
+    "text": "PDOException"
+  },
+  {
+    "line": "21",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "21",
+    "token_name": "T_VARIABLE",
+    "text": "$exception"
+  },
+  {
+    "line": "21",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "21",
+    "token_name": "{",
+    "text": "{"
+  },
+  {
+    "line": "21",
+    "token_name": "T_WHITESPACE",
+    "text": "\n            "
+  },
+  {
+    "line": "22",
+    "token_name": "T_ECHO",
+    "text": "echo"
+  },
+  {
+    "line": "22",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "22",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"My Connection error: \""
+  },
+  {
+    "line": "22",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "22",
+    "token_name": ".",
+    "text": "."
+  },
+  {
+    "line": "22",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "22",
+    "token_name": "T_VARIABLE",
+    "text": "$exception"
+  },
+  {
+    "line": "22",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "22",
+    "token_name": "T_STRING",
+    "text": "getMessage"
+  },
+  {
+    "line": "22",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "22",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "22",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "22",
+    "token_name": "T_WHITESPACE",
+    "text": "\n            "
+  },
+  {
+    "line": "23",
+    "token_name": "T_STRING",
+    "text": "error_log"
+  },
+  {
+    "line": "23",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "23",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"My Connection error: \""
+  },
+  {
+    "line": "23",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "23",
+    "token_name": ".",
+    "text": "."
+  },
+  {
+    "line": "23",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "23",
+    "token_name": "T_VARIABLE",
+    "text": "$exception"
+  },
+  {
+    "line": "23",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "23",
+    "token_name": "T_STRING",
+    "text": "getMessage"
+  },
+  {
+    "line": "23",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "23",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "23",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "23",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "23",
+    "token_name": "T_WHITESPACE",
+    "text": "\n        "
+  },
+  {
+    "line": "24",
+    "token_name": "}",
+    "text": "}"
+  },
+  {
+    "line": "24",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n        "
+  },
+  {
+    "line": "26",
+    "token_name": "T_RETURN",
+    "text": "return"
+  },
+  {
+    "line": "26",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "26",
+    "token_name": "T_VARIABLE",
+    "text": "$this"
+  },
+  {
+    "line": "26",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "26",
+    "token_name": "T_STRING",
+    "text": "conn"
+  },
+  {
+    "line": "26",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "26",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "27",
+    "token_name": "}",
+    "text": "}"
+  },
+  {
+    "line": "27",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "28",
+    "token_name": "}",
+    "text": "}"
+  },
+  {
+    "line": "28",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "29",
+    "token_name": "T_CLOSE_TAG",
+    "text": "?>"
+  }
+]

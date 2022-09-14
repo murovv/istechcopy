@@ -1,0 +1,1412 @@
+[
+  {
+    "line": "1",
+    "token_name": "T_OPEN_TAG",
+    "text": "<?php\n"
+  },
+  {
+    "line": "2",
+    "token_name": "T_DECLARE",
+    "text": "declare"
+  },
+  {
+    "line": "2",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "2",
+    "token_name": "T_STRING",
+    "text": "strict_types"
+  },
+  {
+    "line": "2",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "2",
+    "token_name": "T_LNUMBER",
+    "text": "1"
+  },
+  {
+    "line": "2",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "2",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "2",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "3",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ необходимые HTTP-заголовки"
+  },
+  {
+    "line": "3",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "4",
+    "token_name": "T_STRING",
+    "text": "header"
+  },
+  {
+    "line": "4",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "4",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"Access-Control-Allow-Origin: *\""
+  },
+  {
+    "line": "4",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "4",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "4",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "5",
+    "token_name": "T_STRING",
+    "text": "header"
+  },
+  {
+    "line": "5",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "5",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"Access-Control-Allow-Headers: access\""
+  },
+  {
+    "line": "5",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "5",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "5",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "6",
+    "token_name": "T_STRING",
+    "text": "header"
+  },
+  {
+    "line": "6",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "6",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"Access-Control-Allow-Methods: GET\""
+  },
+  {
+    "line": "6",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "6",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "6",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "7",
+    "token_name": "T_STRING",
+    "text": "header"
+  },
+  {
+    "line": "7",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "7",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"Access-Control-Allow-Credentials: true\""
+  },
+  {
+    "line": "7",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "7",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "7",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "8",
+    "token_name": "T_STRING",
+    "text": "header"
+  },
+  {
+    "line": "8",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "8",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"Content-Type: application\/json\""
+  },
+  {
+    "line": "8",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "8",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "8",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "9",
+    "token_name": "T_IF",
+    "text": "if"
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "9",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "9",
+    "token_name": "T_VARIABLE",
+    "text": "$_SERVER"
+  },
+  {
+    "line": "9",
+    "token_name": "[",
+    "text": "["
+  },
+  {
+    "line": "9",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"REQUEST_METHOD\""
+  },
+  {
+    "line": "9",
+    "token_name": "]",
+    "text": "]"
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "9",
+    "token_name": "T_IS_NOT_IDENTICAL",
+    "text": "!=="
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "9",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "'GET'"
+  },
+  {
+    "line": "9",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "9",
+    "token_name": "{",
+    "text": "{"
+  },
+  {
+    "line": "9",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "10",
+    "token_name": "T_STRING",
+    "text": "header"
+  },
+  {
+    "line": "10",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "10",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "'HTTP\/1.0 403 Forbidden'"
+  },
+  {
+    "line": "10",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "10",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "10",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "11",
+    "token_name": "T_ECHO",
+    "text": "echo"
+  },
+  {
+    "line": "11",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "11",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "'This method is not allowed!'"
+  },
+  {
+    "line": "11",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "11",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "12",
+    "token_name": "T_EXIT",
+    "text": "exit"
+  },
+  {
+    "line": "12",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "12",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "13",
+    "token_name": "}",
+    "text": "}"
+  },
+  {
+    "line": "13",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n\n"
+  },
+  {
+    "line": "16",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ подключение файла для соединения с базой и файл с объектом"
+  },
+  {
+    "line": "16",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "17",
+    "token_name": "T_INCLUDE_ONCE",
+    "text": "include_once"
+  },
+  {
+    "line": "17",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "17",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "'..\/config\/database.php'"
+  },
+  {
+    "line": "17",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "17",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "18",
+    "token_name": "T_INCLUDE_ONCE",
+    "text": "include_once"
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "18",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "'..\/objects\/product.php'"
+  },
+  {
+    "line": "18",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "18",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n"
+  },
+  {
+    "line": "20",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ получаем соединение с базой данных"
+  },
+  {
+    "line": "20",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "21",
+    "token_name": "T_VARIABLE",
+    "text": "$database"
+  },
+  {
+    "line": "21",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "21",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "21",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "21",
+    "token_name": "T_NEW",
+    "text": "new"
+  },
+  {
+    "line": "21",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "21",
+    "token_name": "T_STRING",
+    "text": "Database"
+  },
+  {
+    "line": "21",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "21",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "21",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "21",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "22",
+    "token_name": "T_VARIABLE",
+    "text": "$db"
+  },
+  {
+    "line": "22",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "22",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "22",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "22",
+    "token_name": "T_VARIABLE",
+    "text": "$database"
+  },
+  {
+    "line": "22",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "22",
+    "token_name": "T_STRING",
+    "text": "getConnection"
+  },
+  {
+    "line": "22",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "22",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "22",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "22",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n"
+  },
+  {
+    "line": "24",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ подготовка объекта"
+  },
+  {
+    "line": "24",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "25",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "25",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "25",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "25",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "25",
+    "token_name": "T_NEW",
+    "text": "new"
+  },
+  {
+    "line": "25",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "25",
+    "token_name": "T_STRING",
+    "text": "Product"
+  },
+  {
+    "line": "25",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "25",
+    "token_name": "T_VARIABLE",
+    "text": "$db"
+  },
+  {
+    "line": "25",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "25",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "25",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n"
+  },
+  {
+    "line": "27",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ установим свойство ID записи для чтения"
+  },
+  {
+    "line": "27",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "28",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "28",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "28",
+    "token_name": "T_STRING",
+    "text": "id"
+  },
+  {
+    "line": "28",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "28",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "28",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "28",
+    "token_name": "T_VARIABLE",
+    "text": "$_GET"
+  },
+  {
+    "line": "28",
+    "token_name": "[",
+    "text": "["
+  },
+  {
+    "line": "28",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "'id'"
+  },
+  {
+    "line": "28",
+    "token_name": "]",
+    "text": "]"
+  },
+  {
+    "line": "28",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "28",
+    "token_name": "T_COALESCE",
+    "text": "??"
+  },
+  {
+    "line": "28",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "28",
+    "token_name": "T_EXIT",
+    "text": "die"
+  },
+  {
+    "line": "28",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "28",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "28",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "28",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n"
+  },
+  {
+    "line": "30",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ прочитаем детали товара для редактирования"
+  },
+  {
+    "line": "30",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "31",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "31",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "31",
+    "token_name": "T_STRING",
+    "text": "readOne"
+  },
+  {
+    "line": "31",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "31",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "31",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "31",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n"
+  },
+  {
+    "line": "33",
+    "token_name": "T_IF",
+    "text": "if"
+  },
+  {
+    "line": "33",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "33",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "33",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "33",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "33",
+    "token_name": "T_STRING",
+    "text": "name"
+  },
+  {
+    "line": "33",
+    "token_name": "T_IS_NOT_EQUAL",
+    "text": "!="
+  },
+  {
+    "line": "33",
+    "token_name": "T_STRING",
+    "text": "null"
+  },
+  {
+    "line": "33",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "33",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "33",
+    "token_name": "{",
+    "text": "{"
+  },
+  {
+    "line": "33",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n    "
+  },
+  {
+    "line": "35",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ создание массива"
+  },
+  {
+    "line": "35",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "36",
+    "token_name": "T_VARIABLE",
+    "text": "$product_arr"
+  },
+  {
+    "line": "36",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "36",
+    "token_name": "=",
+    "text": "="
+  },
+  {
+    "line": "36",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "36",
+    "token_name": "T_ARRAY",
+    "text": "array"
+  },
+  {
+    "line": "36",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "36",
+    "token_name": "T_WHITESPACE",
+    "text": "\n        "
+  },
+  {
+    "line": "37",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"id\""
+  },
+  {
+    "line": "37",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "37",
+    "token_name": "T_DOUBLE_ARROW",
+    "text": "=>"
+  },
+  {
+    "line": "37",
+    "token_name": "T_WHITESPACE",
+    "text": "  "
+  },
+  {
+    "line": "37",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "37",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "37",
+    "token_name": "T_STRING",
+    "text": "id"
+  },
+  {
+    "line": "37",
+    "token_name": ",",
+    "text": ","
+  },
+  {
+    "line": "37",
+    "token_name": "T_WHITESPACE",
+    "text": "\n        "
+  },
+  {
+    "line": "38",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"name\""
+  },
+  {
+    "line": "38",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "38",
+    "token_name": "T_DOUBLE_ARROW",
+    "text": "=>"
+  },
+  {
+    "line": "38",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "38",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "38",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "38",
+    "token_name": "T_STRING",
+    "text": "name"
+  },
+  {
+    "line": "38",
+    "token_name": ",",
+    "text": ","
+  },
+  {
+    "line": "38",
+    "token_name": "T_WHITESPACE",
+    "text": "\n        "
+  },
+  {
+    "line": "39",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"description\""
+  },
+  {
+    "line": "39",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "39",
+    "token_name": "T_DOUBLE_ARROW",
+    "text": "=>"
+  },
+  {
+    "line": "39",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "39",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "39",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "39",
+    "token_name": "T_STRING",
+    "text": "description"
+  },
+  {
+    "line": "39",
+    "token_name": ",",
+    "text": ","
+  },
+  {
+    "line": "39",
+    "token_name": "T_WHITESPACE",
+    "text": "\n        "
+  },
+  {
+    "line": "40",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"price\""
+  },
+  {
+    "line": "40",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "40",
+    "token_name": "T_DOUBLE_ARROW",
+    "text": "=>"
+  },
+  {
+    "line": "40",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "40",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "40",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "40",
+    "token_name": "T_STRING",
+    "text": "price"
+  },
+  {
+    "line": "40",
+    "token_name": ",",
+    "text": ","
+  },
+  {
+    "line": "40",
+    "token_name": "T_WHITESPACE",
+    "text": "\n        "
+  },
+  {
+    "line": "41",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"category_id\""
+  },
+  {
+    "line": "41",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "41",
+    "token_name": "T_DOUBLE_ARROW",
+    "text": "=>"
+  },
+  {
+    "line": "41",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "41",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "41",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "41",
+    "token_name": "T_STRING",
+    "text": "category_id"
+  },
+  {
+    "line": "41",
+    "token_name": ",",
+    "text": ","
+  },
+  {
+    "line": "41",
+    "token_name": "T_WHITESPACE",
+    "text": "\n        "
+  },
+  {
+    "line": "42",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"category_name\""
+  },
+  {
+    "line": "42",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "42",
+    "token_name": "T_DOUBLE_ARROW",
+    "text": "=>"
+  },
+  {
+    "line": "42",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "42",
+    "token_name": "T_VARIABLE",
+    "text": "$product"
+  },
+  {
+    "line": "42",
+    "token_name": "T_OBJECT_OPERATOR",
+    "text": "->"
+  },
+  {
+    "line": "42",
+    "token_name": "T_STRING",
+    "text": "category_name"
+  },
+  {
+    "line": "42",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "43",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "43",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "43",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n    "
+  },
+  {
+    "line": "45",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ код ответа - 200 OK"
+  },
+  {
+    "line": "45",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "46",
+    "token_name": "T_STRING",
+    "text": "http_response_code"
+  },
+  {
+    "line": "46",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "46",
+    "token_name": "T_LNUMBER",
+    "text": "200"
+  },
+  {
+    "line": "46",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "46",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "46",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n    "
+  },
+  {
+    "line": "48",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ вывод в формате json"
+  },
+  {
+    "line": "48",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "49",
+    "token_name": "T_ECHO",
+    "text": "echo"
+  },
+  {
+    "line": "49",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "49",
+    "token_name": "T_STRING",
+    "text": "json_encode"
+  },
+  {
+    "line": "49",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "49",
+    "token_name": "T_VARIABLE",
+    "text": "$product_arr"
+  },
+  {
+    "line": "49",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "49",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "49",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "50",
+    "token_name": "}",
+    "text": "}"
+  },
+  {
+    "line": "50",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n"
+  },
+  {
+    "line": "52",
+    "token_name": "T_ELSE",
+    "text": "else"
+  },
+  {
+    "line": "52",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "52",
+    "token_name": "{",
+    "text": "{"
+  },
+  {
+    "line": "52",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "53",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ код ответа - 404 Не найдено"
+  },
+  {
+    "line": "53",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "54",
+    "token_name": "T_STRING",
+    "text": "http_response_code"
+  },
+  {
+    "line": "54",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "54",
+    "token_name": "T_LNUMBER",
+    "text": "404"
+  },
+  {
+    "line": "54",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "54",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "54",
+    "token_name": "T_WHITESPACE",
+    "text": "\n\n    "
+  },
+  {
+    "line": "56",
+    "token_name": "T_COMMENT",
+    "text": "\/\/ сообщим пользователю, что товар не существует"
+  },
+  {
+    "line": "56",
+    "token_name": "T_WHITESPACE",
+    "text": "\n    "
+  },
+  {
+    "line": "57",
+    "token_name": "T_ECHO",
+    "text": "echo"
+  },
+  {
+    "line": "57",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "57",
+    "token_name": "T_STRING",
+    "text": "json_encode"
+  },
+  {
+    "line": "57",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "57",
+    "token_name": "T_ARRAY",
+    "text": "array"
+  },
+  {
+    "line": "57",
+    "token_name": "(",
+    "text": "("
+  },
+  {
+    "line": "57",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"message\""
+  },
+  {
+    "line": "57",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "57",
+    "token_name": "T_DOUBLE_ARROW",
+    "text": "=>"
+  },
+  {
+    "line": "57",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "57",
+    "token_name": "T_CONSTANT_ENCAPSED_STRING",
+    "text": "\"Товар не существует.\""
+  },
+  {
+    "line": "57",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "57",
+    "token_name": ",",
+    "text": ","
+  },
+  {
+    "line": "57",
+    "token_name": "T_WHITESPACE",
+    "text": " "
+  },
+  {
+    "line": "57",
+    "token_name": "T_STRING",
+    "text": "JSON_UNESCAPED_UNICODE"
+  },
+  {
+    "line": "57",
+    "token_name": ")",
+    "text": ")"
+  },
+  {
+    "line": "57",
+    "token_name": ";",
+    "text": ";"
+  },
+  {
+    "line": "57",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  },
+  {
+    "line": "58",
+    "token_name": "}",
+    "text": "}"
+  },
+  {
+    "line": "58",
+    "token_name": "T_WHITESPACE",
+    "text": "\n"
+  }
+]
